@@ -1,0 +1,188 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.16rem;
+    font-family: "微软雅黑";
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+#box{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    ul{
+        padding: 0.08rem 0.09rem;
+        display: flex;
+        justify-content: space-between;
+        li:nth-child(1){
+            width: 35%;
+        }
+        .guo{
+            font-size: 0.2rem;
+            color: #000;
+            margin-top: 0.1rem;
+        }
+        li:nth-child(3){
+            display: flex;
+            align-items: center;
+            div{
+                padding: 0 0.06rem;
+                span{
+                    font-size: 0.225rem;
+                    color: #999;
+                }
+                p{
+                    font-size: 0.11rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+.banner{
+    width: 100%;
+    height: 0.5rem;
+    border-bottom:2px solid #ccc;
+    padding: 0.1rem 0;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        li{
+            display: flex;
+            p{
+                font-size: 0.18rem;
+            }
+            span{
+                font-size: 0.12rem;
+                color: #999;
+                margin-left: 0.1rem;
+                margin-top: 0.04rem;
+            }
+            .icon-search{
+                color: #37C993;
+                font-size: 0.18rem;
+            }
+        }
+    }
+}
+.style{
+    width: 100%;
+    display: flex;
+    border-bottom: 3px solid #eaeaea;
+    padding: 0.1rem 0;
+    .tu{
+         margin-left: 0.1rem;
+        img{
+            width: 1.4rem;
+            height: 0.97rem;
+           
+        }
+    }
+    .person{
+        margin-left: 0.1rem;
+        p{
+            font-size: 0.19rem;
+            color: #000;
+        }
+        .nimu{
+            margin-top: 0.1rem;
+            background: #3BC994;
+            color: white;
+            border: 1px solid #3BC994;
+            border-radius: 5px;
+        }
+        .person1{
+            margin-top: 0.14rem;
+            color: #989898;
+            .icon-location{
+                font-size: 0.18rem;
+            }
+        }
+    }
+}
+.progre{
+    width: 100%;
+    margin-top: 0.16rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid #EAEAEA;
+    padding: 0.15rem 0;
+    border: 1px solid #eaeaea;
+    div{
+        width: 33.3%;
+        height: 0.41rem;
+        line-height: 0.4rem;
+        background: #37C993;
+        color: white;
+        font-size: 0.19rem;
+    }
+    .pro{
+        background: white;
+        color: black;
+    }
+}
+.lianxi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .server{
+        display: flex;
+        margin-top: 0.3rem;
+        p{
+            font-size: 0.18rem;
+            color: #39C893;
+        }
+        span{
+            margin-left: 0.1rem;
+        }
+    }
+    .icon-top{
+       font-size: 0.2rem;
+       padding: 0.027rem;
+       border:1px solid #dedede;
+       border-radius: 50%;
+       position: absolute;
+       left: 90%;
+       color: #9c9c9c;
+    }
+}
+.chuping{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.14rem;
+    span:nth-child(1){
+        color: #3ACA92;
+    }
+}
+.footer{
+    width: 100%;
+    height: 0.53rem;
+    padding: 0.15rem 0.3rem;
+    font-size: 0.16rem;
+    color: #999;
+}
+.foot{
+    width: 100%;
+    margin-bottom: 50px;
+    img{
+        width: 100%;
+    }
+}

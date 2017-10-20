@@ -1,0 +1,343 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.16rem;
+    font-family: "微软雅黑";
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+#box{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    ul{
+        padding: 0.08rem 0.09rem;
+        display: flex;
+        justify-content: space-between;
+        li:nth-child(1){
+            width: 35%;
+        }
+        .guo{
+            font-size: 0.2rem;
+            color: #000;
+            margin-top: 0.1rem;
+        }
+        li:nth-child(3){
+            display: flex;
+            align-items: center;
+            div{
+                padding: 0 0.06rem;
+                span{
+                    font-size: 0.225rem;
+                    color: #999;
+                }
+                p{
+                    font-size: 0.11rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+.style{
+    width: 100%;
+    margin-bottom: 2px solid #eaeaea;
+    padding: 0.05rem 0;
+    .sty{
+        display: flex;
+        width: 100%;
+        .icon-user{
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-left: 0.1rem;
+            font-size: 0.2rem;
+            border: 1px solid #DCDCDC;
+            border-radius: 50%;
+            padding: 0.1rem;
+            color: white;
+            background: #DCDCDC;
+        }
+        span{
+            color: #3AC893;
+            margin-left: 0.15rem;
+            margin-top: 0.06rem;
+            font-size: 0.2rem;
+        }
+        p{
+           color: #666;
+           margin-left: 1.8rem;
+           margin-top: 0.06rem;
+        }
+    }
+    p{
+        margin-left: 0.1rem;
+        font-size: 0.18rem;
+        color: #000;
+        margin-top: 0.16rem;
+        
+        
+    }
+}
+.progre{
+    width: 100%;
+    margin-top: 0.16rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid #EAEAEA;
+    padding: 0.15rem 0;
+    border: 1px solid #eaeaea;
+    div{
+        width: 33.3%;
+        height: 0.41rem;
+        line-height: 0.4rem;
+        background: #37C993;
+        color: white;
+        font-size: 0.19rem;
+    }
+    .pro{
+        background: white;
+        color: black;
+    }
+}
+section{
+  .rgba{
+    width: 100%;
+    height: 10rem;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0.55rem;
+    left: 0;
+  }
+  .txt{
+    position: absolute;
+    left: 0;
+    bottom: -8rem;
+    z-index: 900;
+    width: 100%;
+    padding-top: 0.1rem;
+    background: #F4F4F4;
+    .ulList_10{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li{
+        width: 20%;
+        margin: 0.1rem 0.1rem;
+        button{
+          width: 0.66rem;
+          height: 0.3rem;
+          line-height: 0.3rem;
+          font-size: 0.14rem;
+          background: #cccccc;
+          border: none;
+          border-radius: 3px;
+        }
+      }
+      li:nth-of-type(2){
+        font-size: 0.18rem;
+      }
+      li:nth-of-type(3){
+        button{
+          background: #39C893;
+        }
+      }
+    }
+    textarea{
+      width: 92%;
+      height: 0.825rem;
+      margin-left: 0.1rem;
+      border: none;
+    }
+    .div_img3{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .section_div1{
+    display: none;
+  }
+  .section_div2{
+    display: none;
+    .denglu{
+      width: 80%;
+      padding: 0.3rem 0;
+      margin: 0 auto;
+      font-size: 0.18rem;
+      text-align: center;
+      p{
+        color: #000;
+        span{
+          color: #22C286;
+        }
+      }
+    }
+  }
+}
+footer{
+  position: relative;
+  .bianj{
+    width: 0.47rem;
+    height: 0.47rem;
+    background: #1B9BF7;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.1rem;
+    z-index: 100;
+    text-align: center;
+    line-height: 0.47rem;
+    border-radius: 50%;
+    box-shadow: 3px 1px 3px 1px;
+    i{
+      font-size: 0.23rem;
+      color: #ffffff;
+    }
+  }
+  .footer_div1{
+    width: 95%;
+    margin: 0.18rem auto;
+    font-size: 0.14rem;
+    color: #333;
+  }
+  .yiny{
+    width: 100%;
+    height: 0.09rem;
+    background: #F4F4F4;
+  }
+  .footer_div2{
+    width: 0.47rem;
+    height: 0.47rem;
+    line-height: 0.47rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.8rem;
+    z-index: 800;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    i{
+      font-size: 0.2rem;
+      color: #9c9c9c;
+    }
+  }
+  .footer_div3{
+    width: 90%;
+    margin: 0 auto;
+    div{
+      width: 55%;
+      margin: 0.18rem auto;
+      font-size: 0.14rem;
+      color: #333;
+      i{
+        padding-right: 0.05rem;
+        font-size: 0.16rem;
+        color: #37C791;
+      }
+    }
+    .ulList_8{
+      width: 100%;
+      margin: 0.18rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li{
+        width: 25%;
+        text-align: center;
+        font-size: 0.14rem;
+        color: #333;
+      }
+      li:nth-of-type(1){
+        color: #37C791;
+      }
+    }
+  }
+  .footer_div4{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    z-index: 100;
+    div:nth-of-type(1){
+      width: 100%;
+      height: 0.53rem;
+      background: #000;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .img1{
+        width: 0.2rem;
+        height: 0.2rem;
+      }
+      .img2{
+        margin-top: 0.01rem;
+        width: 2rem;
+        height: 0.5rem;
+      }
+      button{
+        margin: 0.15rem 0.2rem;
+        width: 0.875rem;
+        height: 0.25rem;
+        border: none;
+        background: #FDB605;
+        color: #ffffff;
+        border-radius: 10px;
+      }
+    }
+    .ulList_9{
+      width: 100%;
+      background: #000;
+      li{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img{
+          margin: 0.1rem 0.1rem;
+          width: 0.3rem;
+          height: 0.25rem;
+        }
+        div{
+          position: relative;
+          width: 80%;
+          font-size: 0.12rem;
+          span:nth-of-type(1){
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            color: #ffffff;
+          }
+          span:nth-of-type(2){
+            position: absolute;
+            top: 0.1rem;
+            left: 0.55rem;
+            color: #FB9200;
+          }
+          p{
+            position: absolute;
+            bottom: 0.13rem;
+            left: 0.15rem;
+            font-size: 0.1rem;
+            color: #7E7E7E;
+          }
+        }
+      }
+    }
+  }
+}

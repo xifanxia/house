@@ -1,0 +1,375 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.16rem;
+  font-family: "微软雅黑"; }
+
+body {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+#box {
+  width: 100%; }
+
+.header {
+  width: 100%; }
+  .header ul {
+    padding: 0.08rem 0.09rem;
+    display: flex;
+    justify-content: space-between; }
+    .header ul li:nth-child(1) {
+      width: 35%; }
+    .header ul .guo {
+      font-size: 0.2rem;
+      color: #000;
+      margin-top: 0.1rem; }
+    .header ul li:nth-child(3) {
+      display: flex;
+      align-items: center; }
+      .header ul li:nth-child(3) div {
+        padding: 0 0.06rem; }
+        .header ul li:nth-child(3) div span {
+          font-size: 0.225rem;
+          color: #999; }
+        .header ul li:nth-child(3) div p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.lunbo {
+  width: 100%; }
+  .lunbo img {
+    width: 100%; }
+
+.tit {
+  border-bottom: 1px solid #d7d7d7;
+  padding: 0.2rem 0; }
+  .tit p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.2rem; }
+
+.title {
+  position: relative; }
+  .title img {
+    width: 20%;
+    position: absolute;
+    margin-top: -0.12rem;
+    margin-left: 40%; }
+
+.zhuang {
+  width: 100%;
+  margin-top: 0.14rem;
+  margin-left: 0.3rem;
+  border-bottom: 0.1rem solid #F4F4F4;
+  padding: 0.18rem 0; }
+  .zhuang div {
+    width: 2.93rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 0.14rem;
+    color: #cecaca;
+    margin-bottom: 0.14rem; }
+  .zhuang button {
+    width: 2.93rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    color: white;
+    background: #FEB605;
+    font-size: 0.19rem; }
+
+.style {
+  width: 95%;
+  margin-top: 0.19rem;
+  border: 1px dashed #37C993;
+  margin: 0.1rem 0.1rem;
+  position: relative; }
+  .style .style1 {
+    width: 1.4rem;
+    height: 0.3rem;
+    background: white;
+    position: absolute;
+    margin-top: -0.12rem;
+    margin-left: 1.2rem; }
+  .style .style2 {
+    margin-top: 0.25rem;
+    font-size: 0.12rem;
+    text-indent: 2em;
+    margin-left: 0.05rem; }
+    .style .style2 span {
+      color: #39C893;
+      font-size: 0.12rem; }
+
+.ulList {
+  width: 100%;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .ulList li {
+    width: 31%;
+    margin-top: 0.1rem;
+    border: 1px solid #39C893;
+    padding: 0.2rem; }
+    .ulList li span {
+      font-size: 0.3rem;
+      color: #39C893;
+      padding: 0.1rem;
+      border: 1px solid #39C893;
+      border-radius: 50%; }
+    .ulList li p {
+      font-size: 0.14rem;
+      margin-top: 0.15rem; }
+    .ulList li .ulList1 {
+      color: #666;
+      font-size: 0.12rem; }
+
+.ulList2 {
+  width: 100%;
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .ulList2 li {
+    width: 49%;
+    margin-top: 0.1rem;
+    border: 1px solid #39C893;
+    padding: 0.2rem; }
+    .ulList2 li span {
+      font-size: 0.3rem;
+      color: white;
+      padding: 0.1rem;
+      border: 1px solid #39C893;
+      background: #39C893;
+      border-radius: 50%; }
+    .ulList2 li p {
+      font-size: 0.16rem;
+      margin-top: 0.15rem; }
+
+section {
+  width: 100%;
+  padding-top: 0.2rem;
+  background: #F4F4F4; }
+  section .div_img2 {
+    width: 95%;
+    margin: 0 auto; }
+    section .div_img2 img {
+      width: 100%; }
+  section .section_div1 {
+    margin-top: -0.3rem;
+    padding: 0.15rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative; }
+    section .section_div1 .img1 {
+      position: absolute;
+      left: 0;
+      top: 0.05rem; }
+    section .section_div1 .imgs1 {
+      background: url(../img/loans/loans2.png) no-repeat;
+      background-size: 100%;
+      text-align: center;
+      height: 0.5rem;
+      position: absolute;
+      left: 22%;
+      top: 1rem;
+      width: 60%; }
+      section .section_div1 .imgs1 .p1 {
+        font-size: 0.18rem;
+        color: white; }
+      section .section_div1 .imgs1 .p2 {
+        font-size: 0.12rem;
+        color: white; }
+    section .section_div1 .imgs2 {
+      background: url(../img/loans/loans2.png) no-repeat;
+      background-size: 100%;
+      text-align: center;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      position: absolute;
+      left: 22%;
+      top: 3.2rem;
+      width: 60%; }
+      section .section_div1 .imgs2 .p1 {
+        font-size: 0.18rem;
+        color: white; }
+    section .section_div1 .left_ul {
+      padding-top: 1.5rem;
+      width: 50%;
+      border-right: 5px solid #38ca95; }
+      section .section_div1 .left_ul .loan_logo {
+        margin-bottom: 0.5rem;
+        width: 100%;
+        text-align: right; }
+        section .section_div1 .left_ul .loan_logo img {
+          width: 85%; }
+        section .section_div1 .left_ul .loan_logo .p1 {
+          font-size: 0.14rem;
+          color: #999; }
+          section .section_div1 .left_ul .loan_logo .p1 span {
+            font-size: 0.14rem;
+            color: #38CA94; }
+        section .section_div1 .left_ul .loan_logo .p2 {
+          font-size: 0.14rem;
+          color: #999; }
+          section .section_div1 .left_ul .loan_logo .p2 span {
+            font-size: 0.28rem;
+            color: #000; }
+      section .section_div1 .left_ul .loan_li {
+        width: 95%;
+        padding: 0.1rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        section .section_div1 .left_ul .loan_li .navBack_zi {
+          text-align: center;
+          line-height: 0.4rem;
+          width: 0.4rem;
+          height: 0.4rem;
+          border: 1px dashed #39c894;
+          border-radius: 50%; }
+          section .section_div1 .left_ul .loan_li .navBack_zi span {
+            font-size: 0.18rem;
+            color: #39c894; }
+        section .section_div1 .left_ul .loan_li .zi {
+          width: 65%; }
+          section .section_div1 .left_ul .loan_li .zi .p1 {
+            font-size: 0.14rem;
+            color: #39c894; }
+          section .section_div1 .left_ul .loan_li .zi .p2 {
+            font-size: 0.14rem;
+            color: #999; }
+    section .section_div1 .right_ul {
+      padding-top: 1.5rem;
+      width: 50%;
+      border-left: 5px solid #38ca94; }
+      section .section_div1 .right_ul .loan_li2 {
+        width: 100%;
+        padding: 0.1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around; }
+        section .section_div1 .right_ul .loan_li2 .navBack_zi {
+          text-align: center;
+          line-height: 0.4rem;
+          width: 0.4rem;
+          height: 0.4rem;
+          border: 1px dashed #39c894;
+          border-radius: 50%; }
+          section .section_div1 .right_ul .loan_li2 .navBack_zi span {
+            font-size: 0.29rem;
+            color: #39c894; }
+        section .section_div1 .right_ul .loan_li2 .zi {
+          width: 65%; }
+          section .section_div1 .right_ul .loan_li2 .zi .p1 {
+            font-size: 0.12rem;
+            color: #000; }
+          section .section_div1 .right_ul .loan_li2 .zi .p2 {
+            font-size: 0.12rem;
+            color: #999; }
+            section .section_div1 .right_ul .loan_li2 .zi .p2 span {
+              color: #39c894; }
+      section .section_div1 .right_ul .li_two2 {
+        margin-bottom: 0.4rem; }
+      section .section_div1 .right_ul .loan_li3 {
+        width: 90%;
+        margin: 0 auto; }
+        section .section_div1 .right_ul .loan_li3 .tit {
+          display: flex;
+          align-items: center; }
+          section .section_div1 .right_ul .loan_li3 .tit p {
+            font-size: 0.14rem;
+            margin-left: 0.1rem; }
+          section .section_div1 .right_ul .loan_li3 .tit .navBack_zi {
+            text-align: center;
+            line-height: 0.4rem;
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dashed #39c894;
+            border-radius: 50%; }
+            section .section_div1 .right_ul .loan_li3 .tit .navBack_zi span {
+              font-size: 0.29rem;
+              color: #39c894; }
+        section .section_div1 .right_ul .loan_li3 .zi {
+          width: 65%; }
+          section .section_div1 .right_ul .loan_li3 .zi .p2 {
+            font-size: 0.14rem;
+            color: #999;
+            line-height: 0.26rem; }
+      section .section_div1 .right_ul .li_four2 {
+        margin-top: 0.4rem; }
+
+.waibao {
+  width: 100%;
+  border-bottom: 0.1rem solid #F4F4F4;
+  padding: 0.15rem 0;
+  margin-top: 0.2rem; }
+  .waibao p {
+    font-size: 0.14rem;
+    color: #333;
+    text-indent: 2em; }
+
+.lianxi {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .lianxi .server {
+    display: flex;
+    margin-top: 0.3rem; }
+    .lianxi .server p {
+      font-size: 0.18rem;
+      color: #39C893; }
+    .lianxi .server span {
+      margin-left: 0.1rem; }
+  .lianxi .icon-top {
+    font-size: 0.2rem;
+    padding: 0.027rem;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    position: absolute;
+    left: 90%;
+    color: #9c9c9c; }
+
+.chuping {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.14rem; }
+  .chuping span:nth-child(1) {
+    color: #3ACA92; }
+
+.footer {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 0.14rem;
+  margin-left: 0.4rem;
+  color: #666; }
+
+.foot {
+  width: 100%;
+  margin-bottom: 50px; }
+  .foot img {
+    width: 100%; }
+
+/*# sourceMappingURL=index16.css.map */
